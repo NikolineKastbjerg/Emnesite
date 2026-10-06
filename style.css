@@ -1,0 +1,134 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/***************knapper*****************/
+.cta_kaffensverden {
+  color: #f9eacc;
+  background-color: #7a2015;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  display: inline-block;
+  margin-top: 18px;
+}
+.cta_button {
+  color: #44291b;
+  background-color: #bdc0a8;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 1px solid #44291b;
+  padding-inline: 1.5rem;
+  padding-block: 0.7rem;
+  display: inline-block;
+  margin-top: 18px;
+}
+
+/****************fonts**************/
+h1 {
+}
+
+/****************color*************/
+h1 {
+  color: #f9eacc;
+}
+h2 {
+  color: #f9eacc;
+  font-size: larger;
+}
+.under_billede {
+  color: #426642;
+}
+.boks_overskrift {
+  color: #426642;
+}
+p {
+  color: #f9eacc;
+  background-color: #44291b;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  margin-top: 5rem;
+}
+/***************boks*********/
+.card {
+  border: 5px solid #426642;
+  border-radius: 2rem;
+}
+
+/******************hero*****************/
+.grid_forside {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 10px;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.hero_tekst {
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+  z-index: 2;
+}
+
+/*******************menu**************/
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #bdc0a8;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @media (width < 700px) {
+    display: none;
+  }
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #44291b;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  white-space: nowrap;
+}
