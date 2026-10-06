@@ -10,7 +10,7 @@ img {
   height: auto;
   display: block;
 }
-/***************knapper*****************/
+/*************** knapper *****************/
 .cta_kaffensverden {
   color: #f9eacc;
   background-color: #7a2015;
@@ -21,74 +21,117 @@ img {
   padding-block: 1rem;
   display: inline-block;
   margin-top: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
-.cta_button {
+.cta_card {
   color: #44291b;
   background-color: #bdc0a8;
-  font-size: 1rem;
+  font-size: 0.7rem;
   text-decoration: none;
   border-radius: 2rem;
   border: 1px solid #44291b;
   padding-inline: 1.5rem;
   padding-block: 0.7rem;
-  display: inline-block;
+  display: block;
+  text-align: center;
   margin-top: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
-/****************fonts**************/
+/**************** fonts **************/
 h1 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
-/****************color*************/
+.boks_overskrift {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+.h2under_billede {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+.h3under_billede {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/**************** color *************/
+body {
+  background-color: #f9eacc;
+}
 h1 {
   color: #f9eacc;
 }
-h2 {
+.h2_hero {
   color: #f9eacc;
   font-size: larger;
 }
-.under_billede {
+.h2under_billede,
+.h3under_billede {
   color: #426642;
+  text-align: center;
 }
+
 .boks_overskrift {
   color: #426642;
 }
 p {
   color: #f9eacc;
   background-color: #44291b;
-  padding-block: 1rem;
+  padding-block: 2rem;
   padding-inline: 1rem;
   margin-top: 5rem;
 }
-/***************boks*********/
+/*************** boks *********/
 .card {
   border: 5px solid #426642;
   border-radius: 2rem;
+  padding: 15px;
+  margin-top: 3rem;
 }
 
-/******************hero*****************/
-.grid_forside {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  z-index: 10px;
+/************* margin&padding **********/
+
+.grid_karusel {
+  padding-inline: 20px;
 }
 
-.hero {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-.hero_tekst {
-  position: absolute;
-  left: 40px;
-  bottom: 50px;
-  z-index: 2;
-}
-
-/*******************menu**************/
+/******************* menu **************/
 header {
   position: sticky;
   top: 0;
@@ -97,6 +140,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #bdc0a8;
+  z-index: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -104,7 +148,11 @@ header {
   width: 50px;
   height: 50px;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -131,4 +179,15 @@ header {
   transition: color 0.3s;
   text-align: end;
   white-space: nowrap;
+}
+
+.h2_menu {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  color: #44291b;
 }

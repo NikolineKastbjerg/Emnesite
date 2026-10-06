@@ -3,9 +3,48 @@ img {
   height: auto;
   display: block;
 }
+
+/*************** hero *************/
+.grid_forside {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+}
+
+.hero_billede {
+  grid-column: 1;
+  grid-row: 1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_tekst {
+  grid-column: 1;
+  grid-row: 1;
+
+  align-self: end;
+  justify-self: start;
+
+  margin: 0 0 50px 40px;
+
+  z-index: 2;
+}
+
+/*************** forside *************/
 .grid_karusel {
   /***mobil***/
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+
+  .card {
+    grid-column: span 1;
+  }
+
+  @media (width > 800px) {
+    /*****desktop****/
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
