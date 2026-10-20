@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./Imgs/favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <title>Din kaffe guide</title>
@@ -30,6 +31,11 @@
                 <li><a href="./latteart.html">Latte art</a></li>
                 <li><a href="./deadlink.html">Typiske fejl</a></li>
             </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
         </nav>
     </header>
     <main>
@@ -52,7 +58,7 @@
                 <img src="./Imgs/kaffens_verden.webp" alt="kaffens_verden">
                 <a class="cta_card" href="./deadlink.html">Fra bønne til espresso</a>
             </div>
-            <div class="card">
+            <div class="card hide">
                 <h2 class="boks_overskrift">KAFFEGUIDEN</h2>
                 <img src="./Imgs/kaffeguiden.webp" alt="kaffeguiden">
                 <a class="cta_card" href="./deadlink.html">Find din kaffe</a>
@@ -64,7 +70,7 @@
             </div>
         </div>
         <div>
-            <p>
+            <p class="brun_bjaelke">
                 God kaffe behøver ikke være kompliceret. Her finder du simple guides til dig, der gerne vil blive
                 klogere på kaffe og
                 lære at lave den selv.
@@ -74,9 +80,36 @@
             </p>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer_top">
+            <a href="#">
+                <img class="footer_logo" src="./Imgs/Logo.webp" alt="logo">
+            </a>
 
+            <div class="footer_kontakt">
+                <p class="kontakt">Kontakt:</p>
+                <p class="tlf_mail_copy">Tlf: 30724133</p>
+                <p class="tlf_mail_copy">Mail: NKkaffeguide@gmail.com</p>
+            </div>
+        </div>
+
+        <hr class="footer_linje">
+
+        <div class="footer_bund">
+            <div class="footer_sociale">
+                <a href="#" aria-label="Facebook">
+                    <img class="facebook_logo" src="./Imgs/facebook_logo.webp" alt="facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img class="insta_logo" src="./Imgs/insta_logo.webp" alt="instagram">
+                </a>
+            </div>
+            <p class="footer_copyright tlf_mail_copy">
+                © 2026 Din Kaffe Guide. All rights reserved.
+            </p>
+        </div>
     </footer>
+    <script src="menu.js"></script>
 </body>
 
 </html>

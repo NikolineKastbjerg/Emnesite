@@ -25,6 +25,7 @@ img {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.3);
 }
 .cta_card {
   color: #44291b;
@@ -42,8 +43,69 @@ img {
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.3);
 }
 
+.latte_knap {
+  color: #7a2015;
+  background-color: #f9eacc;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 3.5rem;
+  border: 1px solid #030303;
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  margin-top: 18px;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 75px;
+  margin: 18px auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+.latte_knap img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  border: 1px solid #030303;
+  border-radius: 50%;
+}
+.grid_microfoam img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+  margin: 30px auto 0;
+
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.cta_næste_moenster {
+  color: #f9eacc;
+  background-color: #7a2015;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  display: inline-block;
+  margin-top: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.3);
+}
 /**************** fonts **************/
 h1 {
   font-family: "Fraunces", serif;
@@ -61,6 +123,19 @@ h2 {
   font-style: normal;
 }
 
+.latte_tekst {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  color: #7a2015;
+}
+.knap_tekst {
+  padding-inline: 1.4rem;
+}
 .boks_overskrift {
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
@@ -90,6 +165,112 @@ h2 {
   font-weight: normal;
   font-style: normal;
 }
+.grad {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.h2_latteart {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  text-align: auto;
+  color: #44291b;
+  padding-block: 10px;
+}
+.h2_vaelg {
+  color: #44291b;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+h3 {
+  color: #44291b;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.tekst_microfoam {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #44291b;
+}
+.overskrift {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.kontakt {
+  color: #44291b;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.tlf_mail {
+  color: #44291b;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+.hjerte_brun_h3,
+.hjerte_brun_p {
+  color: #f9eacc;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.hjerte_brun_h3 {
+  font-size: 135%;
+}
+
+.trin_h2 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #426642;
+}
+.trin_p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #44291b;
+}
+.hjerte_h2 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  color: #44291b;
+  font-size: 24px;
+}
+.hjerte_p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #44291b;
+}
 /**************** color *************/
 body {
   background-color: #f9eacc;
@@ -110,27 +291,140 @@ h1 {
 .boks_overskrift {
   color: #426642;
 }
-p {
+.brun_bjaelke {
   color: #f9eacc;
   background-color: #44291b;
   padding-block: 2rem;
   padding-inline: 1rem;
   margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.kaffe_bjaelke {
+  color: #f9eacc;
+  background-color: #44291b;
+  padding-block: 0.7rem;
+}
+.grid_microfoam {
+  background-color: white;
+  padding: 3rem 45px;
+  text-align: center;
+}
+.grid_knapper {
+  background-color: white;
+}
+.farve {
+  background-color: white;
+}
+.trin_3-4 {
+  background-color: #f9eacc;
+  padding: 0.3rem;
+}
+.hjerte_bjealke {
+  background-color: #44291b;
 }
 /*************** boks *********/
 .card {
   border: 5px solid #426642;
   border-radius: 2rem;
   padding: 15px;
-  margin-top: 3rem;
+  margin-top: 1.8rem;
 }
 
+.hide {
+  display: none;
+}
 /************* margin&padding **********/
 
 .grid_karusel {
   padding-inline: 20px;
 }
 
+.h2_vaelg {
+  margin-top: 3rem;
+}
+
+.hjerte_bjealke {
+  padding: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.hjerte_overskrift {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+}
+.trin_1-2 {
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+}
+.trin_3-4 {
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+}
+.trin_5-6 {
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+}
+
+.trin_p {
+  margin-bottom: 3rem;
+}
+/******************* latte art hero **************/
+.grid_latteart {
+  background-color: #f9eacc;
+  padding: 40px;
+}
+
+.latte_billede {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  margin-top: 30px;
+  border-radius: 50px;
+}
+/******************* latte art marquee **************/
+.marquee {
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+h3 span {
+  display: inline-block;
+  text-wrap: nowrap;
+  animation: tekts-om-kaffe-ruller-over-skærm 25s linear infinite;
+}
+@keyframes tekts-om-kaffe-ruller-over-skærm {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/******************* hjerte side **************/
+.trin_img {
+  width: 100%;
+  max-width: 370px;
+  height: auto;
+  display: block;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+.video {
+  width: 100%;
+  max-width: 370px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /******************* menu **************/
 header {
   position: sticky;
@@ -140,7 +434,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #bdc0a8;
-  z-index: 10px;
+  z-index: 100;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -190,4 +484,135 @@ header {
     "SOFT" 0,
     "WONK" 0;
   color: #44291b;
+}
+nav {
+  /*desktop*/
+  display: flex;
+  align-items: center;
+
+  @media (width < 800px) {
+    /*mobil*/
+    &.active .menu {
+      display: block;
+      background-color: #bdc0a8;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+
+    &.active .menu li {
+      margin: 10px 20px;
+    }
+
+    &.active .menu a {
+      font-size: 24px;
+    }
+  }
+}
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+
+  .line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #44291b;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+
+  @media (width < 800px) {
+    display: block;
+    background-color: transparent;
+    border: 0;
+
+    &.active .line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+      transition: 0.2s linear;
+    }
+
+    &.active .line:nth-child(2) {
+      opacity: 0;
+      transition: 0.15s linear;
+    }
+
+    &.active .line:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+      transition: 0.2s linear;
+    }
+  }
+}
+/******************* footer **************/
+.footer {
+  background-color: #bdc0a8;
+  padding: 40px 30px;
+  color: #44291b;
+}
+
+.footer_top {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 30px;
+}
+
+.footer_logo {
+  width: 85px;
+}
+
+.footer_kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer_kontakt p:last-child {
+  grid-column: span 2;
+}
+
+.footer_linje {
+  border: none;
+  border-top: 1px solid #44291b;
+  margin: 40px 0;
+}
+
+.footer_bund {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer_sociale {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook_logo {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.insta_logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.footer_sociale a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer_copyright {
+  text-align: center;
 }

@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./Imgs/favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <title>Latte art</title>
@@ -30,15 +31,111 @@
                 <li><a href="./latteart.html">Latte art</a></li>
                 <li><a href="./deadlink.html">Typiske fejl</a></li>
             </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
         </nav>
     </header>
     <main>
+        <div class="grid_latteart">
+            <div class="latte_hero">
+                <h2 class="h2_latteart">LÆR LATTE ART</h2>
+                <h3 class="h3_latteart">Latte art er mere end et flot mønster. Det handler om den rette mælk, teknik og
+                    masser af øvelse.
+                </h3>
+            </div>
+            <img class="latte_billede" src="./Imgs/latteart.webp" alt="latteart">
+
+        </div>
+
+
+
+        <div class="grid_knap_maelk">
+            <section class="marquee">
+                <h3 class="kaffe_bjaelke">
+                    <span>Bryg bedre espresso &emsp;&emsp;&emsp; Steam mælken rigtigt &emsp;&emsp;&emsp; Lær latte art
+                        &emsp;&emsp;&emsp; Undgå de typiske fejl &emsp;&emsp;&emsp;</span>
+
+
+                </h3>
+            </section>
+            <section class="grid_knapper">
+                <div class="knapper_boks">
+                    <h2 class="h2_vaelg overskrift">VÆLG ET MØNSTER</h2>
+                    <a class="latte_knap" href="./hjerte.html">
+                        <img src="./Imgs/hjerte.webp" alt="Latte art hjerte">
+                        <div class="knap_tekst">
+                            <h3 class="latte_tekst">Hjerte</h3>
+                            <p class="grad">Begynder</p>
+                        </div>
+                    </a>
+                    <a class="latte_knap" href="./deadlink.html">
+                        <img src="./Imgs/tulipan.webp" alt="Latte art tulipan">
+                        <div class="knap_tekst">
+                            <h3 class="latte_tekst">Tulipan</h3>
+                            <p class="grad">Let øvet</p>
+                        </div>
+                    </a>
+                    <a class="latte_knap" href="./deadlink.html">
+                        <img src="./Imgs/rosetta.webp" alt="Latte art rosetta">
+                        <div class="knap_tekst">
+                            <h3 class="latte_tekst">Rosetta</h3>
+                            <p class="grad">Øvet</p>
+                        </div>
+                    </a>
+                    <a class="latte_knap" href="./deadlink.html">
+                        <img src="./Imgs/svane.webp" alt="Latte art svane">
+                        <div class="knap_tekst">
+                            <h3 class="latte_tekst">Svane</h3>
+                            <p class="grad">Øvet</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid_microfoam">
+                    <h3 class="tekst_microfoam overskrift">LÆR AT LAVE MICROFOAM</h3>
+                    <p class="tekst_microfoam">Den rigtige mælkeskum er første skridt til god latte art.</p>
+                    <img src="./Imgs/microfoam.webp" alt="lær at lave microfoam">
+                </div>
+            </section>
+
+        </div>
 
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer_top">
+            <a href="#">
+                <img class="footer_logo" src="./Imgs/Logo.webp" alt="logo">
+            </a>
 
+            <div class="footer_kontakt">
+                <p class="kontakt">Kontakt:</p>
+                <p class="tlf_mail_copy">Tlf: 30724133</p>
+                <p class="tlf_mail_copy">Mail: NKkaffeguide@gmail.com</p>
+            </div>
+        </div>
+
+        <hr class="footer_linje">
+
+        <div class="footer_bund">
+            <div class="footer_sociale">
+                <a href="#" aria-label="Facebook">
+                    <img class="facebook_logo" src="./Imgs/facebook_logo.webp" alt="facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img class="insta_logo" src="./Imgs/insta_logo.webp" alt="instagram">
+                </a>
+            </div>
+            <p class="footer_copyright tlf_mail_copy">
+                © 2026 Din Kaffe Guide. All rights reserved.
+            </p>
+        </div>
     </footer>
+
+    <script src="menu.js"></script>
 </body>
 
 </html>
