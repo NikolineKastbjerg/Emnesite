@@ -9,12 +9,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./Imgs/favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <title>Hjerte</title>
 </head>
 
-<body>
+<body class="farve">
     <header>
         <div class="logo">
             <a href="index.html">
@@ -30,14 +31,106 @@
                 <li><a href="./latteart.html">Latte art</a></li>
                 <li><a href="./deadlink.html">Typiske fejl</a></li>
             </ul>
+            <button class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
         </nav>
     </header>
     <main>
-
+        <div class="hjerte_trin">
+            <div class="hjerte_overskrift">
+                <h2 class="hjerte_h2">LAV ET HJERTE TRIN FOR TRIN</h2>
+                <p class="hjerte_p">Følg de 6 trin og lær teknikken bag et klassisk latte art-hjerte</p>
+            </div>
+            <div class="trin_1-2">
+                <div>
+                    <h2 class="trin_h2">Trin 1 - Lav dit espressoshot</h2>
+                    <img class="trin_img" src="./Imgs/trin1.webp" alt="trin 1">
+                    <p class="trin_p">Bryg et frisk espressoshot i koppen.
+                        Sørg for, at espressoen har en jævn crema – det giver en god overflade at hælde i.</p>
+                </div>
+                <div>
+                    <h2 class="trin_h2">Trin 2 - Steam mælken</h2>
+                    <img class="trin_img" src="./Imgs/microfoam.webp" alt="trin 2">
+                    <p class="trin_p">Steam mælken, så du får en fin og blank microfoam uden store luftbobler.
+                        Konsistensen skal være glat og minde om våd maling. Bank eventuelle bobler ud og swirl kanden.
+                    </p>
+                </div>
+            </div>
+            <div class="trin_3-4">
+                <div>
+                    <h2 class="trin_h2">Trin 3 - Start højt og hæld langsomt</h2>
+                    <img class="trin_img" src="./Imgs/trin3.webp" alt="trin 3">
+                    <p class="trin_p">Hold koppen lidt på skrå. Start med at hælde en tynd stråle mælk fra ca. 5–10 cm
+                        over
+                        koppen.
+                        Hæld mod midten og bevæg koppen forsigtigt tilbage mod vandret.</p>
+                </div>
+                <div>
+                    <h2 class="trin_h2">Trin 4 - Kom tæt på overfladen</h2>
+                    <img class="trin_img" src="./Imgs/trin4.webp" alt="trin 4">
+                    <p class="trin_p">Når koppen er omkring halvt til to tredjedele fuld, fører du kanden helt tæt på
+                        kaffens overflade.
+                        Nu vil det hvide mælkeskum begynde at lægge sig oven på kaffen.</p>
+                </div>
+            </div>
+            <div class="trin_5-6">
+                <div>
+                    <h2 class="trin_h2">Trin 5 - Skab hjertet</h2>
+                    <video class="video" autoplay muted loop playsinline src="./Imgs/trin5.mov">trin 5</video>
+                    <p class="trin_p">Hold kanden tæt på overfladen og fortsæt med at hælde på samme sted.
+                        Den hvide cirkel vil vokse og begynde at danne toppen af hjertet.</p>
+                </div>
+                <div>
+                    <h2 class="trin_h2">Trin 6 - Træk igennem</h2>
+                    <video class="video" autoplay muted loop playsinline src="./Imgs/trin6.mov">trin 6</video>
+                    <p class="trin_p">Når koppen næsten er fuld, løfter du kanden en smule og laver en tynd stråle
+                        gennem
+                        midten af den
+                        hvide cirkel.
+                        Det trækker mønsteret ud og danner spidsen på hjertet.</p>
+                </div>
+            </div>
+            <div class="hjerte_bjealke">
+                <h3 class="hjerte_brun_h3">Sådan! Nu er det din tur</h3>
+                <p class="hjerte_brun_p">Latte art kræver øvelse – prøv hjertet et par gange, eller gå videre til næste
+                    mønster</p>
+                <a class="cta_næste_moenster" href="./deadlink.html">Gå til næste mønster</a>
+            </div>
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer_top">
+            <a href="#">
+                <img class="footer_logo" src="./Imgs/Logo.webp" alt="logo">
+            </a>
 
+            <div class="footer_kontakt">
+                <p class="kontakt">Kontakt:</p>
+                <p class="tlf_mail_copy">Tlf: 30724133</p>
+                <p class="tlf_mail_copy">Mail: NKkaffeguide@gmail.com</p>
+            </div>
+        </div>
+
+        <hr class="footer_linje">
+
+        <div class="footer_bund">
+            <div class="footer_sociale">
+                <a href="#" aria-label="Facebook">
+                    <img class="facebook_logo" src="./Imgs/facebook_logo.webp" alt="facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img class="insta_logo" src="./Imgs/insta_logo.webp" alt="instagram">
+                </a>
+            </div>
+            <p class="footer_copyright tlf_mail_copy">
+                © 2026 Din Kaffe Guide. All rights reserved.
+            </p>
+        </div>
     </footer>
+    <script src="menu.js"></script>
 </body>
 
 </html>
